@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leaf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;   
+        }
+        .nav{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .nav h1{
+            font-size: 3rem;
+            letter-spacing: 15px;
+            color: #2f7932bd;
+        }
+        .nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 25px 20px 25px 20px;
+            color: #94cc44;
+        }
+        .f{
+            width: -webkit-fill-available;
+            height: 100vh
+        }
+        .e{
+            color: bisque;
+            text-transform: uppercase;
+            font-size: xx-large;
+        }
+        .hang{
+            position: absolute;
+            right: 23.5rem;
+            bottom: 13rem;
+            transform-origin: 50% 0;
+            animation: animate 2.5s ease-in-out infinite forwards;
+        }
+        @keyframes animate{
+            0%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotate(-10deg); 
+            }
+            100%{
+                transform: rotate(10deg);
+            }
+        }
+        .leaf{
+            position: absolute;
+            top: 20rem;
+            right: 33.4rem;
+            transform-origin: 50% 0;
+            animation: animate 2s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+        }
+        .leaf1{
+            position: absolute;
+            right: 23%;
+            top: 12%;
+            transform-origin: bottom;
+            animation: animate 2s cubic-bezier(0.55, 0.09, 0.68, 0.53) infinite;
+        }
+        .leaf2{
+            position: absolute;
+            top: 11rem;
+            right: 32%;
+            transform-origin: bottom;
+            animation: animate 2.5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+        }
+        .leaf3{
+            position: absolute;
+            top: 19rem;
+            left: 45%;
+            transform-origin: top;
+            animation: animate 2.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;        }
+        .leaf4{
+            position: absolute;
+            top: 8rem;
+            right: 55%;
+            transform-origin: bottom;
+            animation: animate 2.5s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;        }
+        .leaf5{
+            position: absolute;
+            top: 15rem;
+            left: 32%;
+            transform-origin: right;
+            animation: animate 3s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+        }
+        .leaf6{
+            position: absolute;
+            top: 5rem;
+            left: 0;
+            transform-origin: top;
+            animation: animate 3s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+        }
+        .leaf7{
+            position: absolute;
+            top: 6rem;
+            right: 5rem;
+            transform-origin: bottom;
+            animation: animate 3s cubic-bezier(0.47, 0, 0.75, 0.72) infinite;
+        }
+        .leaf8{
+            position: absolute;
+            top: 10.1rem;
+            left: 22.3%;
+            transform-origin: right;
+            animation: animate 3s infinite;        
+        }
+        .banner{
+            display: flex;
+            width: 50%;
+            align-items: center;
+            position: absolute;
+            bottom: 3rem;
+            left: 8rem;
+        }
+        .title h1{
+            font-family: 'Inspiration', cursive;
+            font-size: 15rem;
+            color: #7a7a7a;
+            font-weight: 100;
+        }
+        .info{
+            font-size: 20px;
+            margin: 25px;
+            color: #7a7a7a;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>ANIM<span class="e">e</span><span style="color: red;">PLIX</span></h1>
+        <Ul>
+            <li>PRODUCTS</li>
+            <li>PRODUCTS</li>
+            <li>PRODUCTS</li>
+            <li>PRODUCTS</li>
+            <li>PRODUCTS</li>
+        </ul>
+    </div>
+    <div class="container">
+
+        <div class="picture">
+            <img src="desktop_tree_bc06d0111d.png" alt="" class="f">
+            <div class="hang">
+                <img src="swing.png" alt="">
+            </div>
+            <div class="leaf">
+                <img src="leaf_00bca48398.png" alt="" style="width: 3.5rem;">
+            </div>
+            <div class="leaf1">
+                <img src="leaf_00bca48398.png" alt="" style="width: 3.5rem; transform: rotate(180deg);">
+            </div>
+            <div class="leaf2">
+                <img src="leaf_00bca48398.png" alt="" style="width: 3rem; transform: rotate(155deg);">
+            </div>
+            <div class="leaf3">
+                <img src="leaf_00bca48398.png" alt="" style="width: 2.5rem;">
+            </div>
+            <div class="leaf4">
+                <img src="leaf_00bca48398.png" alt="" style="width: 3.5rem; transform: rotate(155deg);">
+            </div>
+            <div class="leaf5">
+                <img src="leaf_00bca48398.png" alt="" style="width: 2rem; transform: rotate(90deg);">
+            </div>
+            <div class="leaf6">
+                <img src="leaf_00bca48398.png" alt="" style="width: 3.5rem;">
+            </div>
+            <div class="leaf7">
+                <img src="leaf_00bca48398.png" alt="" style="width: 4.5rem; transform: rotate(214deg);">
+            </div>
+            <div class="leaf8">
+                <img src="leaf_00bca48398.png" alt="" style="width: 2rem; transform: rotate(90deg);">
+            </div>
+
+
+            <div class="banner">
+                <div class="title">
+                    <h1>Stories</h1>
+                </div>
+                <div class="info">
+                    <h3>We are about stories</h3>
+                    <p>Like a deep-rooted 36-year old tree at our Barnala plant 
+                        and its countless leaves, Trident, with a formidable global 
+                        presence, has innumerable stories to tell. Hear each leaf 
+                        tell you its story. </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
